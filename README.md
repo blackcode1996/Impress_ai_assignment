@@ -38,3 +38,15 @@ npm start
 
 This is a resume building web application build using react js where user can make their custom resume.
 
+## :camera: Screenshots
+
+### Overview
+![mobile](https://github.com/blackcode1996/Impress_ai_assignment/assets/110044436/304e6cbf-0269-4a9f-b709-2597a9fe3172)
+
+### Homepage
+![Home](https://github.com/blackcode1996/Impress_ai_assignment/assets/110044436/58670fd4-e673-48c2-bbbc-1ddf31c66007)
+
+### Form and resume making page
+![body](https://github.com/blackcode1996/Impress_ai_assignment/assets/110044436/2a73f9c6-bedf-4d5b-8d04-d876f14b2e29)
+
+
