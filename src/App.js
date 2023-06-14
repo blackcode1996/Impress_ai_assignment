@@ -1,5 +1,8 @@
 import "./App.css";
+import { createRoot } from "react-dom";
 import AllRoutes from "./Pages/AllRoutes/AllRoutes";
+
+const root = createRoot(document.getElementById("root"));
 
 function App() {
   return (
@@ -10,3 +13,4 @@ function App() {
 }
 
 export default App;
+

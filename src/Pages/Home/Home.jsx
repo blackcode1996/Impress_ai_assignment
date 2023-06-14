@@ -3,16 +3,9 @@ import { Row, Col, Button } from "react-bootstrap";
 import Navbar from "../../Components/Navbar";
 import Lottie from "lottie-react";
 import Home_page_pic from "../../Assests/Home_page_lottie.json";
-// import { LinkContainer } from "react-router-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  const navigate = useNavigate();
-
-  function handleClick() {
-    navigate("/make_resume");
-  }
-
   return (
     <>
       <Navbar />
@@ -29,10 +22,11 @@ const Home = () => {
               Resume building app lets get placed{" "}
               <span style={{ color: "orange" }}>!!</span>
             </p>
-
-            <Button variant="warning" onClick={handleClick}>
-              Get started <i className="fa-solid fa-file"></i>
-            </Button>
+            <Link to="/make_resume">
+              <Button variant="warning">
+                Get started <i className="fa-solid fa-file"></i>
+              </Button>
+            </Link>
           </div>
         </Col>
         <Col md={6} className="home__bg">
