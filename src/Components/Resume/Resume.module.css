@@ -150,3 +150,91 @@
     display: none;
   }
   
+  
+@media only screen and (max-width: 600px) {
+  .container {
+    min-width: auto;
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 0;
+  }
+
+  .header .heading {
+    font-size: 2rem;
+  }
+
+  .header .subHeading {
+    font-size: 1rem;
+  }
+
+  .header .links {
+    gap: 15px;
+    row-gap: 5px;
+  }
+
+  .header .link svg {
+    height: 14px;
+    width: 14px;
+  }
+
+  .main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .col1,
+  .col2 {
+    flex: 1;
+  }
+
+  .section .sectionTitle {
+    font-size: 1.2rem;
+  }
+
+  .content .title {
+    font-size: 0.9rem;
+  }
+
+  .content .subTitle {
+    font-size: 0.9rem;
+  }
+
+  .content .overview {
+    font-size: 0.8rem;
+  }
+
+  .content .link {
+    font-size: 0.8rem;
+  }
+
+  .content .link svg {
+    height: 12px;
+    width: 12px;
+  }
+
+  .content .date {
+    font-size: 0.8rem;
+  }
+
+  .content .date svg {
+    height: 12px;
+    width: 12px;
+  }
+
+  .content .points,
+  .numbered {
+    padding-left: 16px;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+
+
+
+
